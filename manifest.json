@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "网大考试",
+    "version": "1.0",
+    "description": "网大考试_Shocker",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "permissions": [
+		"downloads", 
+		"*://kc.zhixueyun.com/#/exam/*",
+		"webRequest", 
+		"webRequestBlocking",
+		"notifications"
+    ],
+    "web_accessible_resources": [
+		"js/*"
+	]
+}
